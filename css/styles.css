@@ -1,0 +1,39 @@
+/*
+Color Palette
+----
+Primary Color: dark pink #400313
+Secondary: mellow pink #57293E 
+Accent Color: pink #A6586D
+
+Typography
+----
+Headlines: font-family: 'Old Standard TT', serif;
+Body Copy: font-family: 'Open Sans', sans-serif;
+
+Backgrounds
+----
+http://subtlepatterns.com/
+*/
+
+/* Global or Site Wide */
+body {
+    background: url("../img/symphony.png");
+}
+
+/* Typography */
+h1, h2 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: #57293E;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p, blockquote {
+    font-family: 'Open Sans', sans-serif;
+}
+
+blockquote {
+    font-size: 2em;
+    text-align: center;
+}
